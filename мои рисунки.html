@@ -4,22 +4,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <meta charset="UTF-8">
-    <header class="p-3  text-white" style="background-color: red;">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                <img src="b43a6bb88c8fc28eb92da587781fb9ab.jpg" width="12%">
-            </a>
     
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 text-white">ГЛАВНАЯ</a></li>
-              <li><a href="#" class="nav-link px-2 text-secondary">МОИ РИСУНКИ</a></li>
-              <li><a href="мой ноутбук.html" class="nav-link px-2 text-white">МОЙ НОУТБУК</a></li>
-              <li><a href="о нас.html" class="nav-link px-2 text-white">О НАС</a></li>
-            </ul>
-          </div>
-        </div>
-    </header>
     <title>Document</title>
     <style>
       img{
@@ -31,9 +16,34 @@
         /* background-size: 100%; */
         color: red;
       }
+      @media (max-width:500px){
+        img{
+        width: 80%;
+        margin: 10%;
+        }
+        body{
+          font-size: 20pt;
+        }
+      }
     </style>
 </head>
 <body>
+  <header class="p-3  text-white" style="background-color: red;">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="b43a6bb88c8fc28eb92da587781fb9ab.jpg" width="12%">
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-white">ГЛАВНАЯ</a></li>
+          <li><a href="#" class="nav-link px-2 text-secondary">МОИ РИСУНКИ</a></li>
+          <li><a href="мой ноутбук.html" class="nav-link px-2 text-white">МОЙ НОУТБУК</a></li>
+          <li><a href="о нас.html" class="nav-link px-2 text-white">О НАС</a></li>
+        </ul>
+      </div>
+    </div>
+</header>
   <img src="a.jpg">
   <img src="b.jpg">
   <img src="c.jpg">
@@ -49,6 +59,5 @@
   <img src="r6.jpg">
   <img src="r7.jpg">
   <img src="r8.jpg">
-  <img src="r9.jpg">
 </body>
 </html>
